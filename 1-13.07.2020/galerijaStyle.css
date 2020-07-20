@@ -1,0 +1,74 @@
+html, body{
+    width: 100%;
+    height: 100%;
+    font-size: 14px;
+    font-weight: normal;
+    text-align: center;
+  }
+  .background{
+      width: 100%;
+      height: 100%;
+      background-image: url(Slike/beach.jpg);
+      background-repeat: no-repeat;
+      background-size: cover;
+      position: relative;
+      overflow-y: auto;
+    }
+    .nav{
+        width: 350px;
+        height: auto;
+        position: absolute;
+        top: 77%;
+        left: 0;
+      }
+    .nav a:hover{
+        background-color: rgba(255, 255, 255, 0.8) ;
+        
+        color: blue;
+        width: 100%;
+      }
+      
+      .a{
+        width: 95%;
+      }
+      .nav a{
+      text-decoration: none;
+      font: 28px;
+      font-family: Verdana, Geneva, Tahoma, sans-serif;
+      font-weight: bold;
+      height: 90px;
+      margin: 5px 0;
+      display:inline-block;
+      background-color:rgba(0, 140, 255, 0.7);
+      color: white;
+      line-height: 90px;
+      text-align: center;
+      transition: 300ms;
+    }
+    .background .nav .content{
+        position: absolute;
+        right: 0;
+        top:10px;
+        color:white;
+        padding: 0 60px;
+        display :none;
+        
+    }
+    .background .nav .content .image{
+        width: 23%;
+        margin: 2%;
+        float:left;
+        
+    }
+     .image img{
+        width: 15%;
+        height: 15%;
+        transition: all ease 0.5s;
+        -webkit-transition: all ease 0.5s ;
+        transform: scale(1);
+        -webkit-transform: scale(1) 
+    }
+     .image img:hover{
+        transform: scale(1.8);
+        -webkit-transform:scale(1.8) ;
+    } 
