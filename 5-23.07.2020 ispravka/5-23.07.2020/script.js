@@ -1,16 +1,24 @@
 // Prvi zadatak
 
-let farenhajt = 232;
-let celzijus = 35;
+let farenhajt = 80;
 
+var tempC = (farenhajt - 32) * 5/9;
 
-tempF = celzijus + 273.15;
+var tempK = tempC + 273.15;
 
-tempC = (farenhajt - 32) * 5/9;
+let kelvin=300;
+
+tempC = kelvin -273.15;
+let tempF = tempC * 9/5 + 32;
+//var tempF = kelvin * 9/5 -459.67;
+
 
 console.log(`Temperatura u Celzijusima iznosi ${tempC}`);
 
+console.log(`Temperatura u Kelvinima iznosi ${tempK}`); 
+
 console.log(`Temperatura u Farenhajtima iznosi ${tempF}`); 
+
 
 // Drugi zadatak
 
@@ -27,14 +35,14 @@ let o = n-dd2-a;
 
  //Treci zadatak 
 
- let p =800;
+ let p =1000;
 
  let m = 600;
 
- let k = 400;
+ let k = 600;
  console.log(`Kusur iznosi ${k} rsd.`);
- let dz=500;
- console.log(`Cena dzempera ${dz} rsd.` );
+ let dz=(p+m-k)/2;
+ console.log(`Cena dzempera ${dz} rsd.`);
 
  let k1=p-dz;
 
